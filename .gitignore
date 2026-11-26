@@ -1,0 +1,21 @@
+# Virtual environments (create one per machine — see INSTALL.md)
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/
